@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-
-import A4Page from './components/A4Page/A4Page';
+import Theme from './theme/Theme';
+import CV from './components/CV/CV';
 
 const AppContainer = styled.main`
   text-align: center;
@@ -10,9 +10,11 @@ const AppContainer = styled.main`
 
 function App() {
   return (
-    <AppContainer>
-      <A4Page />
-    </AppContainer>
+    <Theme>
+      <AppContainer>
+        <CV />
+      </AppContainer>
+    </Theme>
   );
 }
 
