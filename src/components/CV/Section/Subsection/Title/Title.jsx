@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Header = styled.h3`
   margin: 0;
   color: ${({ theme }) => theme.colors.primaryText};
-  font-size: 0.35em;
+  font-size: 0.45em;
   font-weight: 500;
   display: flex;
   margin-bottom: 0.8em;

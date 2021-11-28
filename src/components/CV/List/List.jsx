@@ -8,6 +8,7 @@ const StyledList = styled.ul`
 `;
 
 const Item = styled.li`
+  margin: 0.4em 0;
   display: flex;
   align-items: center;
 `;
@@ -25,7 +26,7 @@ const ItemContent = styled.div`
 `;
 
 const ItemHeader = styled.h4`
-  font-size: 0.3em;
+  font-size: 0.35em;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -39,7 +40,7 @@ const ItemDate = styled.span``;
 
 const ItemDescription = styled.p`
   margin: 0;
-  font-size: 0.25em;
+  font-size: 0.30em;
 `;
 
 const ListItem = ({ title, date, descriptions = [] }) => (

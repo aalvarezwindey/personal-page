@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Title = styled.h1`
   color: ${({ theme }) => theme.colors.primaryText};
-  font-size: 0.75em;
+  font-size: 1em;
   text-align: center;
 `;
 

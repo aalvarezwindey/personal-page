@@ -4,7 +4,7 @@ import Title from './Title/Title';
 
 const Container = styled.section`
   padding: 0;
-  margin: 0.35em 0;
+  margin: 0.6em 0;
 `;
 
 function Subsection({ children }) {

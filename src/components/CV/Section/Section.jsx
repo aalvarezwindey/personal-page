@@ -5,7 +5,7 @@ import Title from './Title/Title';
 
 const Container = styled.section`
   padding: 0;
-  margin: 0.5em 0;
+  margin: 0.75em 0;
 `;
 
 function Section({ children }) {
