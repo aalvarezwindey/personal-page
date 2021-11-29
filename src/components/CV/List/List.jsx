@@ -47,10 +47,12 @@ const ListItem = ({ title, date, descriptions = [] }) => (
   <Item>
     <ItemMarker />
     <ItemContent>
-      <ItemHeader>
-        <ItemTitle>{title}</ItemTitle>
-        <ItemDate>{date}</ItemDate>
-      </ItemHeader>
+      {title || date ? (
+        <ItemHeader>
+          <ItemTitle>{title}</ItemTitle>
+          <ItemDate>{date}</ItemDate>
+        </ItemHeader>
+      ) : null}
       {descriptions.map((desc) => <ItemDescription key={desc}>{desc}</ItemDescription>)}
     </ItemContent>
   </Item>
